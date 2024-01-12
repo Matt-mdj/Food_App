@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Header from '@/components/Layout/Header'
+
 import Hero from '@/components/Layout/Hero'
 import HomeMenu from '@/components/Layout/HomeMenu'
 import SectionHeaders from '@/components/Layout/SectionHeaders'
@@ -8,7 +8,7 @@ import SectionHeaders from '@/components/Layout/SectionHeaders'
 export default function Home() {
   return (
     <>
-      <Header />
+      
       <Hero />
       <HomeMenu/>
       <section className='text-center my-16'>
@@ -40,9 +40,7 @@ export default function Home() {
           </a>
         </div>
       </section>
-      <footer className="border-t p-8 text-center text-grey-500 mt-16">
-        &copy; 2023 All Rights Reserved
-      </footer>
+      
     </>
   )
 }
