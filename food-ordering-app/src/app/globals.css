@@ -22,17 +22,17 @@ input[type="text"]{
 button{
   display: block;
   width: 100%;
-  margin-top: 8px; /* Adjust the value according to your needs */
-  color: #4a5568; /* Adjust the value for text color */
-  font-weight: 600; /* Equivalent to font-semibold */
-  border: 1px solid #718096; /* Equivalent to border border-gray-500 */
-  border-radius: .5rem; /* Adjust the value according to your needs */
-  padding-left: 6px; /* Equivalent to px-6 */
+  margin-top: 8px; 
+  color: #4a5568; 
+  font-weight: 600; 
+  border: 1px solid #718096; 
+  border-radius: .5rem; 
+  padding-left: 6px; 
   padding-right: 2px;
 }
 
 button[type="submit"], .submit{
-  border: none; /* Equivalent to border-0 */
-  background-color: #f03636; /* Replace with your actual primary color */
+  border: none; 
+  background-color: #f03636; 
   color: #ffffff;
 }

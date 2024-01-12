@@ -21,7 +21,7 @@ export default function RegisterPage(){
             <form className="block max-w-xs mx-auto" onSubmit={handleFormSubmit}>
                 <input type="email" placeholder="email" value={email} 
                     onChange={ev => setEmail(ev.target.value)}/>
-                <input type="password" placeholder="password" 
+                <input type="password" placeholder="password" value={password}
                     onChange={ev => setPassword(ev.target.value)}/>
                 <button type="submit">Register</button>
                 <div className="my-4 text-center text-gray-500">
