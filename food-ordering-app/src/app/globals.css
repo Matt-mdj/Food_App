@@ -19,6 +19,12 @@ input[type="text"]{
   border-radius: .5rem;
 }
 
+input[type="email"]:disabled,
+input[type="password"]:disabled,
+input[type="text"]:disabled{
+  background-color: #d7d7d7b3;
+}
+
 button{
   display: block;
   width: 100%;
@@ -35,4 +41,8 @@ button[type="submit"], .submit{
   border: none; 
   background-color: #f03636; 
   color: #ffffff;
+}
+
+button[type="submit"]:disabled, .submit:disabled{
+  @apply cursor-not-allowed bg-red-400;
 }
