@@ -22,7 +22,7 @@ input[type="text"]{
 input[type="email"]:disabled,
 input[type="password"]:disabled,
 input[type="text"]:disabled{
-  background-color: #d7d7d7b3;
+  @apply bg-gray-300 cursor-not-allowed border-0 text-gray-500;
 }
 
 button{
@@ -46,3 +46,4 @@ button[type="submit"], .submit{
 button[type="submit"]:disabled, .submit:disabled{
   @apply cursor-not-allowed bg-red-400;
 }
+
